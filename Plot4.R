@@ -67,7 +67,8 @@ plotEnergySubMetering <- function() {
   #     add a box around the chart
   box()
   #     add the legend 
-  legend("topright", col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=1)
+  legend("topright", col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
+         bty="n", bg="white", lty=1, lwd=1)
 }
 
 # Plot4 - Global Reactive Power
